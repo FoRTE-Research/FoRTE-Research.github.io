@@ -1,9 +1,1157 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>FoRTE Research</title>
-    </head>
-    <body>
-        <p>Soon this will be a really cool website for our research group.</p>
-    </body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matthew Hicks</title>
+    <script
+      src="https://kit.fontawesome.com/1c419ff03d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="static/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/favicon/favicon-16x16.png">
+    <link rel="manifest" href="static/favicon/site.webmanifest">
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="preload" href="static/NSF-logo.png" as="image">
+
+    <link rel="stylesheet" href="static/index.css" />
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="http://127.0.0.1:5000/"
+          ><img src="static/FoRTE_Logo.png" alt="logo" class="img-fluid"
+        /></a>
+        <button
+          class="navbar-toggler ml-auto"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarsExample11"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="navbarsExample11">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/team.html">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#research">Research</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#publications">Publications</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#software">Software</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#teaching">Teaching</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#funding">Funding</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#advice">Advice</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#acknowledgements">Acknowledgements</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid bg-dark">
+      <div class="row">
+        <div class="col-12">
+          <h1><b>Matthew Hicks</b></h1>
+          <hr />
+        </div>
+        <div class="col-12 col-md-4">
+          <img src="static/Dr.HicksPI.jpeg" alt="Avatar" class="avatar" />
+        </div>
+        <div class="col-12 col-md-4">
+          <h4>Associate Professor</h4>
+          <p>Department of Computer Science</p>
+          <p>Virginia Tech</p>
+          <p>Blacksburg, VA 24060</p>
+          <div class="social-links">
+            <a href="https://github.com/FoRTE-Research" target="_blank"
+              ><i class="fa fa-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/matthew-hicks-0b433975/"
+              target="_blank"
+              ><i class="fa fa-linkedin"></i
+            ></a>
+            <a
+              href="https://scholar.google.com/citations?user=_rJCgzIAAAAJ&hl=en"
+              target="_blank"
+              ><i class="ai ai-google-scholar ai-lg"></i
+            ></a>
+            <a href="mailto:mdhicks2@VT.edu" target="_blank"
+              ><i class="fa fa-envelope"></i
+            ></a>
+
+            <a
+              href="http://static1.1.sqspcdn.com/static/f/543048/28597200/1685974367567/cv.pdf?token=M6jOLIk%2FCFaZGZA9RAcBNx0KXiA%3D"
+              class="icon-link"
+            >
+              <div class="cv-icon">CV</div>
+            </a>
+          </div>
+        </div>
+        <div class="col-12 col-md-4" >
+          <img src="static/FoRTE_Logo.png" alt="FoRTE_Logo.png" class="img-fluid" id="container-logo">
+        </div>
+
+      </div>
+    </div>
+
+<!-- About Me Section   -->
+    <div class="aboutme">
+      <h2>About me</h2>
+      <p>
+        I am an Associate Professor in the Computer Science Department at
+        <a href="https://www.vt.edu/">Virginia Tech</a>. Previously, I was a
+        member of the technical staff at MIT Lincoln Laboratory. Before that, I
+        was a Lecturer at the University of Michigan, where I taught courses on
+        Security and Programming. Between 2013 and 2015, I was a Postdoc working
+        with Todd Austin (Architecture) and Kevin Fu (Security) at the
+        University of Michigan. In May of 2013, I earned a PhD in Computer
+        Science (advised by Sam King, now at UC-Davis) at the University of
+        Illinois Urbana-Champaign, where I also earned my Masters in 2008. I
+        earned my BS in Computer Science from the University of Central Florida
+        in May 2006. Broadly, I am interested in
+        <b>systems, security, and architecture</b>. My current research spans
+        the security of hardware, hardware for increased software security,
+        embedded system security, and intermittently computation. I am
+        especially interested in how hardware changes over time and how it fails
+        with respect to security. Previous research projects include, crafting
+        and detecting malicious insertions into hardware and hardware support
+        for real-time and embedded systems.
+      </p>
+    </div>
+
+<!-- News Section   -->
+    <div class="news">
+      <h2>News & Updates</h2>
+      <ul>
+        <li>
+          <h4>August 2021</h4>
+          <p>
+            Our paper on the convergence of gradient descent for
+            overparameterized neural networks has been accepted to NeurIPS 2021.
+          </p>
+        </li>
+        <li>
+          <h4>August 2021</h4>
+          <p>
+            Our paper on the convergence of gradient descent for
+            overparameterized neural networks has been accepted to NeurIPS 2021.
+          </p>
+        </li>
+        <li>
+          <h4>August 2021</h4>
+          <p>
+            Our paper on the convergence of gradient descent for
+            overparameterized neural networks has been accepted to NeurIPS 2021.
+          </p>
+        </li>
+        <li>
+          <h4>August 2021</h4>
+          <p>
+            Our paper on the convergence of gradient descent for
+            overparameterized neural networks has been accepted to NeurIPS 2021.
+          </p>
+        </li>
+      </ul>
+    </div>
+
+<!-- Research Section   -->
+    <div class="research" id="research">
+      <h2>Research Summary</h2>
+      <table class="table">
+        <tbody>
+          <tr >
+            <td>
+              <h4>Binary Analysis / Fuzzing:</h4>
+            </td>
+            <td>
+              <button class="btn btn-primary">USENIX</button>
+              <button class="btn btn-primary">USENIX</button>
+              <button class="btn btn-primary">USENIX</button>
+              
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <h4>Binary Analysis / Fuzzing:</h4>
+            </td>
+            <td>
+              <button class="btn btn-primary">USENIX</button>
+              <button class="btn btn-primary">USENIX</button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <h4>Binary Analysis / Fuzzing:</h4>
+            </td>
+            <td>
+              <button class="btn btn-primary">USENIX</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+<!-- Publications Section   -->
+    <div class="publications" id="publications">
+      <h2>Publications</h2>
+      <div class="row">
+        <div class="col-2">
+          <h4>2023</h4>
+        </div>
+        <div class="col-10">
+          <h5>Fall 2022 - CS 4264 - Principles of Computer Security</h5>
+          <p><b>Matthew Hicks</b>, Leo Stone, Rishi Ranjan, Stefan Nagy, and</p>
+          <p>USENIX Security Symposium (<b>USENIX</b>). August 2023.</p>
+        </div>
+        <div class="col-2">
+          <h4>2023</h4>
+        </div>
+        <div class="col-10">
+          <h5>
+            Not All Data are Created Equal: Data and Pointer Prioritization for
+            Scalable Protection Against Data-Oriented Attacks.
+          </h5>
+          <p>
+            <b>Matthew Hicks</b>, Salman Ahmed, Hans Liljestrand, Hani Jamjoom,
+            N. Asokan, and Daphne Yao.
+          </p>
+          <p>USENIX Security Symposium (<b>USENIX</b>). August 2023.</p>
+        </div>
+        <div class="col-2">
+          <h4>2023</h4>
+        </div>
+        <div class="col-10">
+          <h5>
+            T-TER: Defeating A2 Trojans with Targeted Tamper-Evident Routing
+          </h5>
+          <p>
+            Timothy Trippel, Kang G. Shin, Kevin B. Bush, and
+            <b>Matthew Hicks</b>.
+          </p>
+          <p>
+            ACM ASIA Conference on Computer and Communications Security
+            (<b>AsiaCCS</b>). July 2023.
+          </p>
+        </div>
+        <div class="col-2">
+          <h4>2023</h4>
+        </div>
+        <div class="col-10">
+          <h5>
+            Practical Considerations of Energy Harvesting Source in Minimization
+            of Age of Information with Updating Erasures.
+          </h5>
+          <p>
+            Fariborz Lohrabi Pour, Harrison Williams, <b>Matthew Hicks</b>, and
+            Dong Sam Ha.
+          </p>
+          <p>
+            IEEE International Symposium on Circuits and Systems (<b>ISCAS</b>).
+            May 2023.
+          </p>
+        </div>
+        <div class="col-2">
+          <h4>2022</h4>
+        </div>
+        <div class="col-10">
+          <h5>
+            One Fuzz Doesn’t Fit All: Optimizing Directed Fuzzing via
+            Target-tailored Program State Restriction.
+          </h5>
+          <p>
+            Prashast Srivastava, Stefan Nagy, <b>Matthew Hicks</b>, Antonio
+            Bianchi, and Mathias Payer.
+          </p>
+          <p>
+            Annual Computer Security Applications Conference (<b>ACSAC</b>).
+            December 2022.
+          </p>
+        </div>
+        <div class="col-2">
+          <h4>2022</h4>
+        </div>
+        <div class="col-10">
+          <h5>
+            Self-Reinforcing Memoization for Cryptography Calculations In Secure
+            Memory Systems.
+          </h5>
+          <p>
+            Xin Wang, Daulet Talapkaliyev, <b>Matthew Hicks</b>, and Xun Jian.
+          </p>
+          <p>
+            International Symposium on Microarchitecture (<b>MICRO</b>). October
+            2022.
+          </p>
+        </div>
+        <div class="col-2">
+          <h4>2022</h4>
+        </div>
+        <div class="col-10">
+          <h5>Fuzzing Hardware Like Software.</h5>
+          <p>
+            Timothy Trippel, Kang G. Shin, Alex Chernyakhovsky, Garret Kelly,
+            Dominic Rizzo, and <b>Matthew Hicks</b>.
+          </p>
+          <p>USENIX Security Symposium (<b>USENIX</b>). August 2022.</p>
+        </div>
+        <div class="col-2">
+          <h4>2022</h4>
+        </div>
+        <div class="col-10">
+          <h5>
+            Invisible Bits: Hiding Secret Messages in SRAM’s Analog Domain.
+          </h5>
+          <p>Jubayer Mahmod and <b>Matthew Hicks</b></p>
+          <p>
+            International Conference on Architectural Support for Programming
+            Languages and Operating Systems (<b>ASPLOS</b>). March 2022.
+          </p>
+        </div>
+        <div class="col-2">
+          <h4>2022</h4>
+        </div>
+        <div class="col-10">
+          <h5>
+            SRAM Has No Chill: Exploiting Power Domain Separation to Steal
+            Onchip Secrets.
+          </h5>
+          <p>Jubayer Mahmod and <b>Matthew Hicks</b></p>
+          <p>
+            International Conference on Architectural Support for Programming
+            Languages and Operating Systems (<b>ASPLOS</b>). March 2022.
+          </p>
+        </div>
+        <div class="col-2">
+          <h4>2021</h4>
+        </div>
+        <div class="col-10">
+          <h5>
+            RingRAM: A Unified Hardware Security Primitive for IoT Devices that
+            Gets Better with Age
+          </h5>
+          <p>Michael Moukarzel and <b>Matthew Hicks</b>.</p>
+          <p>
+            Annual Computer Security Applications Conference (<b>ACSAC</b>).
+            December 2021.
+          </p>
+        </div>
+        <div class="col-2">
+          <h4>2021</h4>
+        </div>
+        <div class="col-10">
+          <h5>
+            Same Coverage, Less Bloat: Accelerating Binary-only Fuzzing with
+            Coveragepreserving Coverage-guided Tracing.
+          </h5>
+          <p>
+            Stefan Nagy, Anh Nguyen-Tuong, Jason Hiser, Jack Davidson, and
+            <b>Matthew Hicks</b>.
+          </p>
+          <p>
+            ACM Conference on Computer and Communications Security (<b>CCS</b>).
+            November 2021.
+          </p>
+        </div>
+        <div class="col-2">
+          <h4>2021</h4>
+        </div>
+        <div class="col-10">
+          <h5>
+            Failure Sentinels: Ubiquitous Just-in-time Intermittent Computation
+            via hardware support for continuous, low-cost, fine-grain voltage
+            monitoring.
+          </h5>
+          <p>Harrison Williams, Michael Moukarzel, and <b>Matthew Hicks</b>.</p>
+          <p>
+            International Symposium on Computer Architecture (<b>ISCA</b>). June
+            2021.
+          </p>
+        </div>
+        <div class="col-2">
+          <h4>2021</h4>
+        </div>
+        <div class="col-10">
+          <h5>
+            Breaking Through Binaries: Compiler-quality Instrumentation for
+            Better Binary-only Fuzzing.
+          </h5>
+          <p>
+            Stefan Nagy, Anh Nguyen-Tuong, Jason Hiser, Jack Davidson, and
+            <b>Matthew Hicks</b>.
+          </p>
+          <p>USENIX Security Symposium <b>(USENIX)</b>. August 2021.</p>
+        </div>
+        <div class="col-2">
+          <h4>2021</h4>
+        </div>
+        <div class="col-10">
+          <h5>
+            Bomberman: Defining and Defeating Hardware Ticking Timebombs at
+            Design-time.
+          </h5>
+          <p>
+            Timothy Trippel, Kang G. Shin, Kevin B. Bush, and
+            <b>Matthew Hicks</b>.
+          </p>
+          <p>
+            IEEE Symposium on Security and Privacy (<b>Oakland</b>). May 2021.
+          </p>
+        </div>
+        <div class="col-2">
+          <h4>2020</h4>
+        </div>
+        <div class="col-10">
+          <h5>
+            ICAS: an Extensible Framework for Estimating the Susceptibility of
+            IC Layouts to Additive Trojans.
+          </h5>
+          <p>
+            Timothy Trippel, Kang G. Shin, Kevin B. Bush, and
+            <b>Matthew Hicks</b>.
+          </p>
+          <p>
+            IEEE Symposium on Security and Privacy (<b>Oakland</b>). May 2020.
+          </p>
+        </div>
+        <div class="col-2">
+          <h4>2020</h4>
+        </div>
+        <div class="col-10">
+          <h5>
+            Forget Failure: Exploiting SRAM Data Remanence for Low-overhead
+            Intermittent Computation
+          </h5>
+          <p>Harrison Williams, Xun Jian, and <b>Matthew Hicks</b>.</p>
+          <p>
+            International Conference on Architectural Support for Programming
+            Languages and Operating Systems (<b>ASPLOS</b>). March 2020.
+          </p>
+        </div>
+        <div class="col-2">
+          <h4>2019</h4>
+        </div>
+        <div class="col-10">
+          <h5>
+            Full-speed Fuzzing: Reducing Fuzzing Overhead through
+            Coverage-guided Tracing
+          </h5>
+          <p>Stefan Nagy and <b>Matthew Hicks</b>.</p>
+          <p>
+            IEEE Symposium on Security and Privacy (<b>Oakland</b>). May 2019.
+          </p>
+        </div>
+        <div class="col-2">
+          <h4>2017</h4>
+        </div>
+        <div class="col-10">
+          <h5>Clank: Architectural Support for Intermittent Computation.</h5>
+          <p><b>Matthew Hicks</b>.</p>
+          <p>
+            International Symposium on Computer Architecture (<b>ISCA</b>). June
+            2017.
+          </p>
+        </div>
+        <div class="col-2">
+          <h4>2016</h4>
+        </div>
+        <div class="col-10">
+          <h5>
+            Intermittent Computation without Hardware Support or Programmer
+            Intervention
+          </h5>
+          <p>Joel Van Der Woude and <b>Matthew Hicks</b>.</p>
+          <p>
+            USENIX Symposium on Operating Systems Design and Implementation
+            (<b>OSDI</b>). November 2016.
+          </p>
+        </div>
+        <div class="col-2">
+          <h4>2016</h4>
+        </div>
+        <div class="col-10">
+          <h5>A2: Analog Malicious Hardware.</h5>
+          <p>
+            Kaiyuan Yang, <b>Matthew Hicks</b>, Qing Dong, Todd Austin, and
+            Dennis Sylvester.
+          </p>
+          <p>
+            IEEE Symposium on Security and Privacy (<b>Oakland</b>). May 2016.
+          </p>
+          <p>
+            <b
+              >Distinguished Paper award.
+              <br />
+              Pwnie Most Innovative Research Award finalist.
+              <br />
+              Top Picks in Hardware and Embedded Security 2022
+            </b>
+          </p>
+        </div>
+        <div class="col-2">
+          <h4>2016</h4>
+        </div>
+        <div class="col-10">
+          <h5>
+            ANVIL: Software-Based Protection Against Next-Generation Rowhammer
+            Attacks.
+          </h5>
+          <p>
+            Zelalem Birhanu Aweke, Salessawi Ferede Yitbarek, Rui Qiao,
+            Reetuparna Das, <b>Matthew Hicks</b>, Yossi Oren, and Todd Austin.
+          </p>
+          <p>
+            Symposium on Architectural Support for Programming Languages and
+            Operating Systems (<b>ASPLOS</b>). March 2016.
+          </p>
+        </div>
+        <div class="col-2">
+          <h4>2015</h4>
+        </div>
+        <div class="col-10">
+          <h5>
+            Probable Cause: The Deanonymizing Effects of Approximate DRAM.
+          </h5>
+          <p>
+            Amir Rahmati, <b>Matthew Hicks</b>, Daniel E. Holcomb, and Kevin Fu.
+          </p>
+          <p>
+            International Symposium on Computer Architecture (<b>ISCA</b>). June
+            2015.
+          </p>
+        </div>
+        <div class="col-2">
+          <h4>2015</h4>
+        </div>
+        <div class="col-10">
+          <h5>
+            SPECS: A lightweight runtime mechanism for protecting software from
+            security-critical processor bugs.
+          </h5>
+          <p>
+            <b>Matthew Hicks</b>, Cynthia Sturton, Samuel T. King, and Jonathan
+            M. Smith.
+          </p>
+          <p>
+            Symposium on Architectural Support for Programming Languages and
+            Operating Systems (<b>ASPLOS</b>). March 2015.
+          </p>
+        </div>
+        <div class="col-2">
+          <h4>2011</h4>
+        </div>
+        <div class="col-10">
+          <h5>Defeating UCI: Building Stealthy and Malicious Hardware.</h5>
+          <p>
+            Cynthia Sturton, <b>Matthew Hicks</b>, David Wagner, and Samuel T.
+            King.
+          </p>
+          <p>
+            IEEE Symposium on Security and Privacy (<b>Oakland</b>). May 2011
+          </p>
+        </div>
+        <div class="col-2">
+          <h4>2010</h4>
+        </div>
+        <div class="col-10">
+          <h5>
+            Overcoming an Untrusted Computing Base: Detecting and Removing
+            Malicious Hardware Automatically.
+          </h5>
+          <p>
+            <b>Matthew Hicks</b>, Murph Finnicum, Samuel T. King, Milo M. K.
+            Martin, and Jonathan M. Smith.
+          </p>
+          <p>
+            IEEE Symposium on Security and Privacy (<b>Oakland</b>). May 2010.
+          </p>
+        </div>
+      </div>
+    </div>
+
+<!-- Software Section   -->
+    <div class="software" id="software">
+      <h2>Software</h2>
+      <div class="row">
+        <div class="col-10">
+          <h4>
+            <b>HeXcite </b>(CCS'21): High-Efficiency eXpanded Coverage for
+            Improved Testing of Executables.
+          </h4>
+        </div>
+        <div class="col-2">
+          <a href="https://github.com/FoRTE-Research/hexcite"
+            ><button class="btn btn-primary">GitHub</button></a
+          >
+        </div>
+        <div class="col-10">
+          <h4>
+            <b>ZAFL</b>(USENIX'21): A compiler-quality binary fuzzing
+            instrumenter.
+          </h4>
+        </div>
+        <div class="col-2">
+          <a href="https://git.zephyr-software.com/opensrc/zafl"
+            ><button class="btn btn-primary">GitLab</button></a
+          >
+        </div>
+        <div class="col-10">
+          <h4>
+            <b>UnTracer-AFL</b>(Oakland'19): Fast fuzzing through
+            Coverage-guided Tracing.
+          </h4>
+        </div>
+        <div class="col-2">
+          <a href="https://github.com/FoRTE-Research/UnTracer-AFL"
+            ><button class="btn btn-primary">GitHub</button></a
+          >
+        </div>
+        <div class="col-10">
+          <h4>
+            <b>FoRTE-FuzzBench</b>(Oakland'19): An open-source fuzzing
+            benchmark.
+          </h4>
+        </div>
+        <div class="col-2">
+          <a href="https://github.com/FoRTE-Research/FoRTE-FuzzBench"
+            ><button class="btn btn-primary">GitHub</button></a
+          >
+        </div>
+        <div class="col-10">
+          <h4>
+            <b>AFL-FID</b>(Oakland'19): A suite of tools for fixed-corpus
+            fuzzing experiments.
+          </h4>
+        </div>
+        <div class="col-2">
+          <a href="https://github.com/FoRTE-Research/afl-fid"
+            ><button class="btn btn-primary">GitHub</button></a
+          >
+        </div>
+        <div class="col-10">
+          <h4>
+            <b>AFL-Dyninst</b>: An improved fork of AFL-Dyninst for binary
+            fuzzing.
+          </h4>
+        </div>
+        <div class="col-2">
+          <a href="https://github.com/FoRTE-Research/afl-dyninst"
+            ><button class="btn btn-primary">GitHub</button></a
+          >
+        </div>
+      </div>
+    </div>
+
+<!-- Teaching Section   -->
+    <div class="teaching" id="teaching">
+      <h2>Teaching</h2>
+      <div class="row">
+        <div class="col-10">
+          <h4><b>CS 4264</b>:Principles of Computer Security [Fall 2022]</h4>
+        </div>
+        <div class="col-2">
+          <a href="https://courses.cs.vt.edu/~cs4264/" ><button class="btn btn-primary">Website</button></a>
+        </div>
+        <div class="col-10">
+          <h4>
+            <b>CS 6204</b>: System Security Seminar: Fuzzing [Spring 2022]
+          </h4>
+        </div>
+        <div class="col-2">
+          <button class="btn btn-primary">Website</button>
+        </div>
+        <div class="col-10">
+          <h4><b>CS 4264</b>: Principles of Computer Security [Fall 2021]</h4>
+        </div>
+        <div class="col-2">
+          <a href="https://courses.cs.vt.edu/~cs4264/"><button class="btn btn-primary">Website</button></a>
+        </div>
+        <div class="col-10">
+          <h4>
+            <b>CS/ECE 5590</b>: System and Application Security [Spring 2021]
+          </h4>
+        </div>
+        <div class="col-2">
+          <button class="btn btn-primary">Website</button>
+        </div>
+        <div class="col-10">
+          <h4><b>CS 3214</b>: Computer Systems [Fall 2020]</h4>
+        </div>
+        <div class="col-2">
+          <button class="btn btn-primary">Website</button>
+        </div>
+        <div class="col-10">
+          <h4>
+            <b>CS 6204</b>: System Security Seminar: Hardware Security [Spring
+            2020]
+          </h4>
+        </div>
+        <div class="col-2">
+          <button class="btn btn-primary">Website</button>
+        </div>
+        <div class="col-10">
+          <h4><b>CS 4264</b>: Principles of Computer Security [Fall 2019]</h4>
+        </div>
+        <div class="col-2">
+          <a href="https://courses.cs.vt.edu/~cs4264/"><button class="btn btn-primary">Website</button></a>
+        </div>
+        <div class="col-10">
+          <h4>
+            <b>CS/ECE 5590</b>: System and Application Security [Spring 2019]
+          </h4>
+        </div>
+        <div class="col-2">
+          <button class="btn btn-primary">Website</button>
+        </div>
+        <div class="col-10">
+          <h4><b>CS 4264</b>: Principles of Computer Security [Fall 2019]</h4>
+        </div>
+        <div class="col-2">
+          <a href="https://courses.cs.vt.edu/~cs4264/"><button class="btn btn-primary">Website</button></a>
+        </div>
+      </div>
+    </div>
+
+<!-- Funding Section   -->
+    <div class="funding" id="funding">
+      <h2>Funding</h2>
+      <ul>
+        <li>
+          <span
+            >SHF: Small: Circuit Support for Maintaining the Continuous-power
+            Abstraction in Energy Harvesting Systems</span
+          >
+          <ul>
+            <li><strong>Sponsor:</strong> NSF</li>
+            <li>
+              <strong>Project timeframe:</strong> 09-01-2023 to 08-31-2026
+            </li>
+            <li><strong>Team:</strong> Matthew Hicks (sole-PI)</li>
+            <li><strong>Total:</strong> $450,000</li>
+            <li><strong>Department share:</strong> $450,000</li>
+            <li><strong>My share:</strong> $450,000</li>
+          </ul>
+        </li>
+        <li>
+          <span
+            >CAREER: Designing and Defending Novel Ultra-stealthy and
+            Controllable Designtime Analog-domain Hardware Trojans</span
+          >
+          <ul>
+            <li><strong>Sponsor:</strong> NSF</li>
+            <li>
+              <strong>Project timeframe:</strong> 05-01-2021 to 04-30-2026
+            </li>
+            <li><strong>Team:</strong> Matthew Hicks (sole-PI)</li>
+            <li><strong>Total:</strong> $547,672</li>
+            <li><strong>Department share:</strong> $547,672</li>
+            <li><strong>My share:</strong> $547,672</li>
+          </ul>
+        </li>
+        <li>
+          <span
+            >EPIC SWaPD: Energy-Preserving IoT Cryptography for Small Weight and
+            Power Devices</span
+          >
+          <ul>
+            <li><strong>Sponsor:</strong> DARPA I2O</li>
+            <li>
+              <strong>Project timeframe:</strong> 10-01-2020 to 09-30-2024
+            </li>
+            <li>
+              <strong>Team:</strong> Angelos Stavrou (PI, Krpytowire), Matthew
+              Hicks (co-PI), Khaled N. Khasawneh (co-PI, GMU), Brian L. Mark
+              (co-PI, GMU), Sai Manoj Pudukotai Dinakarrao (co-PI, GMU), and Kai
+              Zeng (co-PI, GMU)
+            </li>
+            <li><strong>Total:</strong> $7,437,173</li>
+            <li><strong>Department share:</strong> $1,793,747.11</li>
+            <li><strong>My share:</strong> $1,793,747.11</li>
+          </ul>
+        </li>
+        <li>
+          <span
+            >Security Analysis of Hardware Security Primitives Employed by IoT
+            and Cyberphysical Systems</span
+          >
+          <ul>
+            <li>
+              <strong>Sponsor:</strong> Virginia Commonwealth Cyber Initiative
+              (CCI), SWVA Node
+            </li>
+            <li>
+              <strong>Project timeframe:</strong> 06-01-2020 to 11-30-2020
+            </li>
+            <li><strong>Team:</strong> Matthew Hicks (sole-PI)</li>
+            <li><strong>Total:</strong> $20,000</li>
+            <li><strong>Department share:</strong> $20,000</li>
+            <li><strong>My share:</strong> $20,000</li>
+          </ul>
+        </li>
+        <li>
+          <span
+            >Digital Techniques for Exposing and Eliminating Information Hidden
+            in SRAM’s Analog Domain</span
+          >
+          <ul>
+            <li><strong>Sponsor:</strong> DARPA I2O</li>
+            <li>
+              <strong>Project timeframe:</strong> 07-01-2019 to 06-30-2022
+            </li>
+            <li><strong>Team:</strong> Matthew Hicks (sole-PI)</li>
+            <li><strong>Total:</strong> $900,539</li>
+            <li><strong>Department share:</strong> $900,539</li>
+            <li><strong>My share:</strong> $900,539</li>
+          </ul>
+        </li>
+        <li>
+          <span>CPI Protection Through Software Anti-Tamper (Phase 2)</span>
+          <ul>
+            <li>
+              <strong>Sponsor:</strong> Office of the Secretary of Defense (OSD)
+            </li>
+            <li>
+              <strong>Project timeframe:</strong> 08-01-2018 to 02-28-2020
+            </li>
+            <li>
+              <strong>Team:</strong> Charles Clancy III (PI, Hume), Thidapat
+              Chantem (Co-PI, Hume), Eli Tilevich (Co-PI), and Matthew Hicks
+              (Co-PI)
+            </li>
+            <li><strong>Total:</strong> $850,000</li>
+            <li><strong>Department share:</strong> $340,000</li>
+            <li><strong>My share:</strong> $170,000</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+<!-- Advice Section   -->
+    <div class="advice" id="advice">
+      <h2>Advice</h2>
+      <h5>Ph.D. dissertation/research advice:</h5>
+
+      <ul>
+        
+        <li>
+          <a href="#"><p>Advice for Prospective Research Students on Contacting Potential Advisors by David Evans</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>A course on Preparation for Statistical Research offered at NCSU Stat Dept</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>Principles of Effective Research by Michael A. Nielsen</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>The Ph.D Experience by Mihir Bellare</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>Tom Henzinger&#39;s advice on doing research</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>The scientific method by Jeff Offutt</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>Thoughts on choosing an advisor by Jeff Offutt</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>Thoughts on writing a Ph.D. proposal by Jeff Offutt</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>Thoughts on reading papers by Jeff Offutt</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>Advice for Computer Science College Students by Joel Spolsky</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>How to Be a Good Graduate Student by Marie desJardins, Indiana University</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>Excellent advice about graduate school life by Ronald T. Azuma, University of Virginia</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>Discussion on Ph.D. thesis proposals in computing science by H. C. Lauer</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>How to write a PhD Thesis given at the doctoral symposium at ASE&#39;03 (Oct 2003) by Steve Easterbrook</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>Advice for finishing a Ph.D. (pdf document containing slides by Prof. Daniel M. Berry) Lecture</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>How to Organize your Thesis, by John W. Chinneck.</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>Chris Riesbeck on What is a Thesis Defense?</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>How to write a thesis in an Experimental area of Computer Science by Doug Comer.</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>How to escape during a Ph.D. Final Exam by Doug Comer.</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>An explanation of language used in CS Departments by Doug Comer.</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>For anyone considering a Ph.D. in Computer Science by Doug Comer.</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>How to measure research by Doug Comer.</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>How to write a Ph.D. thesis by Joe Wolfe.</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>Tips for Writing and Presentation of Thesis or Dissertation by Joseph Levine.</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>Dissertation Advice, by Olin Shivers</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>Resources for Students interested in the PhD by Norman Ramsey</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>How to get admitted to a PhD program, by Norman Ramsey.</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>Graduate School Advice</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>Advice collection</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>What Am I Doing Here? A Guide to the Unwritten Rules of Grad School in the Sciences by Cory Kerens, Ph.D.</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>For anyone considering a Ph.D. in Computer Science, by Doug Comer</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>PhD rants-and-raves</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>Tips on research and writing, by Renee Miller.</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>So long, and thanks for the Ph.D.!, by Ronald Azuma</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>A Letter to Research Students, by Duane A. Bailey</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>Networking on the Network: A Guide to Professional Skills for PhD Students</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>Thoughts on Ph.D. Qualifiers by Phil Koopman</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>Tom Martin&#39;s qual page for some good hints from the student point of view.</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>Graduate Study in the Computer and Mathematical Sciences : A Survival Manual, Dianne O&#39;Leary</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>How to be a Good Graduate Student by Marie desJardins.</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>Guide to working with Norman Ramsey expectations and obligations as an advisor.</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>A Dictionary of Useful Research Phrases</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>Burnout Prevention and Recovery at MIT</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>How to be terrible graduate student (by Graeme Hirst, University of Toronto).</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>Choosing an Advisor by Marshall Lev Dermer, UW-Milwaukee.</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>Computer Science Graduate School Survival Guide by Ronald Azuma.</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>Notes On The PhD Degree</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>Re-Envisioning the Ph.D. by the graduate school of UW</p></a>
+        </li>
+        
+        <li>
+          <a href="#"><p>Acronyms Frequently Heard Around the School of Computer Science by Paul Heckbert</p></a>
+        </li>
+        
+      </ul>
+    </div>
+
+<!-- Acknowledgements Section   -->
+    <div class="acknowledgements" id="acknowledgements">
+      <h2>Acknowledgements</h2>
+      <div class="row">
+        <div class="col-4">
+          <img
+            src="static/NSF-logo.png"
+            alt="NSF-logo"
+            class="img-fluid"
+            loading="lazy"
+          />
+        </div>
+        <div class="col-4">
+          <img
+            src="static/darpalogo.png"
+            alt="DARPA Logo"
+            class="img-fluid"
+            loading="lazy"
+          />
+        </div>
+        <div class="col-4">
+          <img
+            src="static/Xilinx-Logo.png"
+            alt="Xilinx-Logo"
+            class="img-fluid"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+
+    <footer
+      class="text-center text-lg-start text-white"
+      style="background-color: rgb(134, 31, 65)"
+    >
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 mt-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold">FoRTE Research Group</h6>
+              <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+              />
+              <p>
+                The FoRTE Research Group is a research group in the Department
+                of Computer Science at Virginia Tech. We are interested in
+                systems, security, and architecture.
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 mt-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Contact</h6>
+              <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+              />
+              <p>
+                <i class="fas fa-map-marker-alt mr-3" id="icon"></i> Gilbert
+                Place, 220 Gilbert Street,<br /><span id="address"
+                  >Lab 4305, Blacksburg, VA 24060S</span
+                >
+              </p>
+              <p>
+                <i class="fas fa-envelope mr-3" id="icon"></i> mdhicks2@vt.edu
+              </p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+<!-- Copyright -->
+<div
+   class="text-center p-0"
+   style="background-color: rgb(92, 22, 45); color: white"
+   >
+   <p style="font-size: 14px;">&copy; Matthew Hicks. All rights reserved.</p>
+</div>
+<!-- Copyright -->
+</footer>
+    
+    
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
