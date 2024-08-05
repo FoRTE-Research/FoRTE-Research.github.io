@@ -1,0 +1,23 @@
+Student Type	Name	Area	Role	Start Date	End Date	First Job	Social Name	Social Link	src	alt
+phd	Jubayer Mahmod	Hardware Security	role 1	start 1	end 1	first job 1	social name 1	https://computing.ece.vt.edu/~Jubayer/	static/JubayerMahmodPhD.jpeg	Andreas Niekler
+phd	Harrison Williams	Intermittent Computation	role 2	start 2	end 2	first job 2	social name 2	https://harriswms.github.io/	static/HarrisonWilliamsPhD.jpeg	Harrison Williams
+phd	Daniel Chiba	Hardware Security	role 3	start 3	end 3	first job 3	social name 3	#	static/DandielChibaPhD.jpg	Andreas Niekler
+phd	Prakhar Sah	Intermittent Computation	role 4	start 4	end 4	first job 4	social name 4	#	static/PrakharSahPhD.jpg	Andreas Niekler
+masters	Rishi Ranjan	Fuzzing	role 5	start 5	end 5	first job 5	social name 5	https://rish9101.github.io/	static/RishiRanjanMS.jpg	Andreas Niekler
+masters	Shambhavi Anil Kuthe	Intermittent Computation	role 6	start 6	end 6	first job 6	social name 6	https://shambhavi19.github.io/projects.html	static/ShambhaviKutheMS.jpg	Andreas Niekler
+masters	Sydney Earp	Intermittent Computation	role 7	start 7	end 7	first job 7	social name 7	#	static/SydneyEarpMS.jpg	Andreas Niekler
+masters	Santiago Garcia	Hardware Security	role 8	start 8	end 8	first job 8	social name 8	#	static/SantiagoGarciaMS.JPG	Andreas Niekler
+masters	None	Fuzzing	role 9	start 9	end 9	first job 9	social name 9	#	https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png	Andreas Niekler
+masters	Erin Freck	Fuzzing	role 10	start 10	end 10	first job 10	social name 10	https://enfreck.github.io/	static/ErinFreckMS.jpg	Andreas Niekler
+undergrads	Name	Area of Research	role 11	start 11	end 11	first job 11	social name 11	#	https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png	Andreas Niekler
+undergrads	Name	Area of Research	role 12	start 12	end 12	first job 12	social name 12	#	https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png	Andreas Niekler
+undergrads	Name	Area of Research	role 13	start 13	end 13	first job 13	social name 13	#	https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png	Andreas Niekler
+undergrads	Name	Area of Research	role 14	start 14	end 14	first job 14	social name 14	#	https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png	Andreas Niekler
+alumni	Rohit Sathye	Intermittent Computation	role 15	start 15	end 15	first job 15	social name 15	#	https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png	Andreas Niekler
+alumni	Name	Area of Research	role 16	start 16	end 16	first job 16	social name 16	#	https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png	Andreas Niekler
+alumni	Name	Area of Research	role 17	start 17	end 17	first job 17	social name 17	#	https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png	Andreas Niekler
+alumni	Name	Area of Research	role 18	start 18	end 18	first job 18	social name 18	#	https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png	Andreas Niekler
+collabs	Name	Area of Research	role 19	start 19	end 19	first job 19	social name 19	#	https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png	Andreas Niekler
+collabs	Name	Area of Research	role 20	start 20	end 20	first job 20	social name 20	#	https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png	Andreas Niekler
+collabs	Name	Area of Research	role 21	start 21	end 21	first job 21	social name 21	#	https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png	Andreas Niekler
+collabs	Name	Area of Research	role 22	start 22	end 22	first job 22	social name 22	#	https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png	Andreas Niekler

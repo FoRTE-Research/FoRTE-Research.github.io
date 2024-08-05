@@ -1,0 +1,13 @@
+{% macro student_card(entry) %}
+<div class="col-lg-3 col-sm-4">
+    <div class="card">
+        <img src="{{ entry.src }}" alt="{{ entry.alt }}" class="img-fluid" />
+        <div class="card-body">
+            <a href="{{ entry.social_link }}">
+                <h5 class="card-title">{{ entry.name }}</h5>
+            </a>
+            <p class="card-text">{{ entry.area }}</p>
+        </div>
+    </div>
+</div>
+{% endmacro %}

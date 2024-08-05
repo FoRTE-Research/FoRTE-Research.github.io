@@ -1,0 +1,7 @@
+Title	Sponsor	Start Date	End Date	Team	Total	Dept Share	My Share
+SHF: Small: Circuit Support for Maintaining the Continuous-power Abstraction in Energy Harvesting Systems	NSF	09-01-2023	08-31-2026	Matthew Hicks (sole-PI)	$450,000	$450,000	$450,000
+CAREER: Designing and Defending Novel Ultra-stealthy and Controllable Designtime Analog-domain Hardware Trojans	NSF	05-01-2021	04-30-2026	Matthew Hicks (sole-PI)	$547,672	$547,672	$547,672
+EPIC SWaPD: Energy-Preserving IoT Cryptography for Small Weight and Power Devices	DARPA I2O	10-01-2020	09-30-2024	Angelos Stavrou (PI, Krpytowire), Matthew Hicks (co-PI), Khaled N. Khasawneh (co-PI, GMU), Brian L. Mark (co-PI, GMU), Sai Manoj Pudukotai Dinakarrao (co-PI, GMU), and Kai Zeng (co-PI, GMU)	$7,437,173	$1,793,747.11	$1,793,747.11
+Security Analysis of Hardware Security Primitives Employed by IoT and Cyberphysical Systems	Virginia Commonwealth Cyber Initiative (CCI), SWVA Node	06-01-2020	11-30-2020	Matthew Hicks (sole-PI)	$20,000	$20,000	$20,000
+Digital Techniques for Exposing and Eliminating Information Hidden in SRAM's Analog Domain	DARPA I2O	07-01-2019	06-30-2022	Matthew Hicks (sole-PI)	$900,539	$900,539	$900,539
+CPI Protection Through Software Anti-Tamper (Phase 2)	Office of the Secretary of Defense (OSD)	08-01-2018	02-28-2020	Charles Clancy III (PI, Hume), Thidapat Chantem (Co-PI, Hume), Eli Tilevich (Co-PI), and Matthew Hicks (Co-PI)	$850,000	$340,000	$170,000

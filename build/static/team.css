@@ -1,0 +1,384 @@
+
+/* Team Page */
+
+.navbar {
+  background-color: rgb(134, 31, 65) !important;
+}
+.navbar-brand,
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand {
+  padding: 0.5rem 1rem;
+  margin-left: 12%;
+  overflow: hidden;
+  max-height: 60px;
+}
+
+.navbar-brand img {
+  height: 100px;
+  width: 100px;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-nav li {
+  margin: 0 10px;
+}
+
+.nav-link {
+  font-family: "Helvetica Neue", Helvetica, Arial, cursive;
+  font-size: 16px;
+  font-weight: 500;
+}
+.active {
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: white;
+}
+.container-fluid {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  border-radius: 10px;
+  font-family: "Helvetica Neue", Helvetica, Arial, cursive;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+h1 {
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, cursive;
+  font-size: 40px;
+  font-weight: 500;
+  margin-top: 5%;
+}
+.container-fluid hr {
+  border: 3px solid black;
+  width: 10%;
+  margin-left: 45%;
+}
+
+.card {
+  width: 100%;
+  /* height: 100%; */
+  margin: 0 auto;
+  border-radius: 10px;
+  border: none;
+  margin-top: 5%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card a {
+  text-decoration: none;
+}
+.card a:hover{
+  text-decoration: underline;
+}
+
+
+#leadership {
+  width: 250px; /* Adjust the size as needed */
+  height: 250px; /* Adjust the size as needed */
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 10px;
+}
+.card-body {
+  border: none;
+}
+.card-title {
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  font-size: 20px;
+  font-weight: bold;
+}
+.card-text {
+  /* some normal font family */
+  font-family: "Helvetica Neue", Helvetica, Arial, cursive;
+  font-size: 15px;
+  font-weight: 500;
+}
+.Photos {
+  /* height: 100vh; */
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+.carousel .carousel-inner img {
+  margin: auto; /* Center the images both horizontally and vertically */
+  width: 60% !important;
+  margin-top: 1%;
+  border-radius: 10px;
+  max-height: 600px;
+  object-fit: cover;
+  height: 600px;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  top: 50%; /* Align vertically centered */
+  transform: translateY(-50%); /* Adjust vertical alignment */
+  width: auto; /* Adjust the width as needed */
+  color: #ffffff; 
+  opacity: 0.7; /* Optional: Adjust the button opacity */
+  transition: opacity 0.2s; 
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #000000;
+  opacity: 0.5;
+}
+/* Adjust the position of the previous button */
+.carousel-control-prev {
+  left: 21.3%;
+}
+/* Adjust the position of the next button */
+.carousel-control-next {
+  right: 21.3%;
+}
+.members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.member-card {
+  width: 30%;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.member-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.footer {
+  color: black;
+  padding: 20px 0;
+  text-align: center;
+  background-color: #f2f2f2;
+  font-family: "Helvetica Neue", Helvetica, Arial, cursive;
+  font-size: 16px;
+  font-weight: 500;
+}
+.phd .card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 10px;
+  transform: translate3d(0, 0, 1px);
+  object-fit: cover !important;
+}
+.phd .card-title {
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  font-size: 16px;
+  font-weight: bold;
+}
+.phd .card-text {
+  font-family: "Helvetica Neue", Helvetica, Arial, cursive;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.masters .card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  transform: translate3d(0, 0, 1px);
+  object-fit: cover !important;
+  margin-top: 10px;
+}
+.masters .card-title {
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  font-size: 16px;
+  font-weight: bold;
+}
+.masters .card-text {
+  font-family: "Helvetica Neue", Helvetica, Arial, cursive;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.undergrads .card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  transform: translate3d(0, 0, 1px);
+  object-fit: cover !important;
+  margin-top: 10px;
+}
+.undergrads .card-title {
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  font-size: 16px;
+  font-weight: bold;
+}
+.undergrads .card-text {
+  font-family: "Helvetica Neue", Helvetica, Arial, cursive;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.alumni .card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  transform: translate3d(0, 0, 1px);
+  object-fit: cover !important;
+  margin-top: 10px;
+}
+.alumni .card-title {
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  font-size: 16px;
+  font-weight: bold;
+}
+.alumni .card-text {
+  font-family: "Helvetica Neue", Helvetica, Arial, cursive;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.collabs .card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  transform: translate3d(0, 0, 1px);
+  object-fit: cover !important;
+  margin-top: 10px;
+}
+.collabs .card-title {
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  font-size: 16px;
+  font-weight: bold;
+}
+.collabs .card-text {
+  font-family: "Helvetica Neue", Helvetica, Arial, cursive;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#address {
+  display: inline-block;
+  padding-left: 27px;
+}
+#icon {
+  padding-right: 10px;
+}
+
+@media (max-width: 992px) {
+  .col-sm-4 {
+    width: 50%;
+  }
+  .navbar-brand {
+    margin-left: 0%;
+    overflow: hidden;
+    max-height: 60px;
+  }
+  .navbar-brand img {
+    height: 100px;
+    width: 100px;
+  }
+
+  .carouselBasicExample {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .carousel .carousel-inner img {
+    margin: auto; /* Center the images both horizontally and vertically */
+    width: 80% !important;
+    margin-top: 2%;
+    border-radius: 10px;
+    max-height: 600px;
+    object-fit: cover;
+    height: 300px;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    top: 50%; /* Align vertically centered */
+    transform: translateY(-50%); /* Adjust vertical alignment */
+    width: auto; /* Adjust the width as needed */
+    color: #ffffff; 
+    opacity: 0.7; /* Optional: Adjust the button opacity */
+    transition: opacity 0.2s; 
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #000000;
+    opacity: 0.5;
+  }
+
+  #leadership {
+    width: 150px; /* Adjust the size as needed */
+    height: 150px; /* Adjust the size as needed */
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 10px;
+  }
+  .container-fluid .card-title {
+    font-family: "Helvetica Neue", Helvetica, Arial;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .container-fluid .card-text {
+    /* some normal font family */
+    font-family: "Helvetica Neue", Helvetica, Arial, cursive;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .phd .card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 10px;
+  }
+
+  .masters .card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 10px;
+  }
+
+  .undergrads .card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 10px;
+  }
+
+  .alumni .card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 10px;
+  }
+
+  .collabs .card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 10px;
+  }
+}
