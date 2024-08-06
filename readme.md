@@ -1,4 +1,7 @@
 # Rule of engagement
+## Requirments
+python3, Flask, Frozen-Flask, bibtexparser
+
 ## How to make changes:
 Pull the latest version of this repo
 
