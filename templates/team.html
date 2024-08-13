@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
+{% from "macros.html" import student_card %}
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -186,412 +189,66 @@
 <div class="phd">
   <h1>PhD</h1>
   <hr>
-  
-  <div class="row">
-    <div class=" col-lg-3 col-sm-4">
-      <div class="card">
-        <img
-        src="static/JubayerMahmodPhD.jpeg"
-        alt="Andreas Niekler"
-        class="img-fluid"
-      />
-      <div class="card-body">
-        <a href="https://computing.ece.vt.edu/~Jubayer/"><h5 class="card-title">Jubayer Mahmod</h5></a>
-        <p class="card-text">
-          Hardware Security
-        </p>
+    <div class="row">
+    {% for entry in students %}
+        {% if entry.student_type == "phd" %}
+            {{ student_card(entry) }}
+        {% endif %}
+    {% endfor %}
     </div>
-
-    </div>
-  </div>
-  <div class=" col-lg-3 col-sm-4">
-    <div class="card">
-      <img
-      src="static/HarrisonWilliamsPhD.jpeg"
-      alt="Harrison Williams"
-      class="img-fluid"
-    />
-      <div class="card-body">
-        <a href="https://harriswms.github.io/"><h5 class="card-title">Harrison Williams</h5></a>
-        <p class="card-text">
-          Intermittent Computation
-        </p>
-
-    </div>
-
-  </div>
-</div>
-<div class=" col-lg-3 col-sm-4">
-  <div class="card">
-    <img
-    src="static/DandielChibaPhD.jpg"
-    alt="Andreas Niekler"
-    class="img-fluid"
-  />
-    <div class="card-body">
-      <a href="#"><h5 class="card-title">Daniel Chiba</h5></a>
-      <p class="card-text">
-        Hardware Security      
-      </p>
-
-  </div>
-
-</div>
-</div>
-<div class=" col-lg-3 col-sm-4">
-  <div class="card">
-    <img
-    src="static/PrakharSahPhD.jpg"
-    alt="Andreas Niekler"
-    class="img-fluid"
-  />
-    <div class="card-body">
-      <a href="#"><h5 class="card-title">Prakhar Sah</h5></a>
-      <p class="card-text">
-        Intermittent Computation
-      </p>
-
-  </div>
-
-</div>
-</div>
-</div>
 </div>
 
 <!-- Masters -->
 <div class="masters">
   <h1>Masters</h1>
   <hr>
-  <div class="row">
-    <div class=" col-lg-3 col-sm-4">
-      <div class="card">
-        <img
-        src="static/RishiRanjanMS.jpg"
-        alt="Andreas Niekler"
-        class="img-fluid"
-      />
-      <div class="card-body">
-        <a href="https://rish9101.github.io/"><h5 class="card-title">Rishi Ranjan</h5></a>
-        <p class="card-text">
-          Fuzzing
-        </p>
-
+    <div class="row">
+    {% for entry in students %}
+        {% if entry.student_type == "masters" %}
+            {{ student_card(entry) }}
+        {% endif %}
+    {% endfor %}
     </div>
-
-    </div>
-</div>
-
-<div class=" col-lg-3 col-sm-4">
-  <div class="card">
-    <img
-    src="static/ShambhaviKutheMS.jpg"
-    alt="Andreas Niekler"
-    class="img-fluid"
-  />
-  <div class="card-body">
-    <a href="https://shambhavi19.github.io/projects.html"><h5 class="card-title">Shambhavi Anil Kuthe</h5></a>
-    <p class="card-text">
-      Intermittent Computation
-    </p>
-
-</div>
-
-</div>
-</div>
-<div class=" col-lg-3 col-sm-4">
-  <div class="card">
-    <img
-    src="static/SydneyEarpMS.jpg"
-    alt="Andreas Niekler"
-    class="img-fluid"
-  />
-  <div class="card-body">
-    <a href="#"><h5 class="card-title">Sydney Earp</h5></a>
-    <p class="card-text">
-      Intermittent Computation
-    </p>
-
-</div>
-</div>
-</div>
-<div class=" col-lg-3 col-sm-4">
-  <div class="card">
-    <img
-    src="static/SantiagoGarciaMS.JPG"
-    alt="Andreas Niekler"
-    class="img-fluid"
-  />
-  <div class="card-body">
-    <a href="#"><h5 class="card-title">Santiago Garcia</h5></a>
-    <p class="card-text">
-      Hardware Security
-    </p>
-
-</div>
-</div>
-</div>
-<div class=" col-lg-3 col-sm-4">
-  <div class="card">
-    <img
-    src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-    alt="Andreas Niekler"
-    class="img-fluid"
-  />
-  <div class="card-body">
-    <a href="#"><h5 class="card-title">None</h5></a>
-    <p class="card-text">
-      Fuzzing
-    </p>
-
-</div>
-</div>
-</div>
-<div class=" col-lg-3 col-sm-4">
-  <div class="card">
-    <img
-    src="static/ErinFreckMS.jpg"
-    alt="Andreas Niekler"
-    class="img-fluid"
-  />
-  <div class="card-body">
-    <a href="https://enfreck.github.io/"><h5 class="card-title">Erin Freck</h5></a>
-    <p class="card-text">
-      Fuzzing
-    </p>
-
-</div>
-</div>
-</div>
-
-</div>
 </div>
 
 <!-- Undergrads -->
 <div class="undergrads">
   <h1>Undergraduates</h1>
   <hr>
-  <div class="row">
-    <div class=" col-lg-3 col-sm-4">
-      <div class="card">
-        <img
-        src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-        alt="Andreas Niekler"
-        class="img-fluid"
-      />
-      <div class="card-body">
-        <a href="#"><h5 class="card-title">Name</h5></a>
-        <p class="card-text">
-          Area of Research
-        </p>
-
+    <div class="row">
+    {% for entry in students %}
+        {% if entry.student_type == "undergrads" %}
+            {{ student_card(entry) }}
+        {% endif %}
+    {% endfor %}
     </div>
-
-    </div>
-</div>
-<div class=" col-lg-3 col-sm-4">
-  <div class="card">
-    <img
-    src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-    alt="Andreas Niekler"
-    class="img-fluid"
-  />
-  <div class="card-body">
-    <a href="#"><h5 class="card-title">Name</h5></a>
-    <p class="card-text">
-      Area of Research
-    </p>
-
-</div>
-
-</div>
-</div>
-<div class=" col-lg-3 col-sm-4">
-  <div class="card">
-    <img
-    src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-    alt="Andreas Niekler"
-    class="img-fluid"
-  />
-  <div class="card-body">
-    <a href="#"><h5 class="card-title">Name</h5></a>
-    <p class="card-text">
-      Area of Research
-    </p>
-
-</div>
-
-</div>
-</div>
-<div class=" col-lg-3 col-sm-4">
-  <div class="card">
-    <img
-    src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-    alt="Andreas Niekler"
-    class="img-fluid"
-  />
-  <div class="card-body">
-    <a href="#"><h5 class="card-title">Name</h5></a>
-    <p class="card-text">
-      Area of Research
-    </p>
-
-</div>
-
-</div>
-</div>
-</div>
 </div>
 
 <!-- Alumni -->
 <div class="alumni">
   <h1>Alumni</h1>
   <hr>
-  <div class="row">
-    <div class=" col-lg-3 col-sm-4">
-      <div class="card">
-        <img
-        src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-        alt="Andreas Niekler"
-        class="img-fluid"
-      />
-      <div class="card-body">
-        <a href="#"><h5 class="card-title">Rohit Sathye</h5></a>
-        <p class="card-text">
-          Intermittent Computation    
-        </p>
-    
+    <div class="row">
+    {% for entry in students %}
+        {% if entry.student_type == "alumni" %}
+            {{ student_card(entry) }}
+        {% endif %}
+    {% endfor %}
     </div>
-    
-    </div>
-    </div>
-<div class=" col-lg-3 col-sm-4">
-  <div class="card">
-    <img
-    src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-    alt="Andreas Niekler"
-    class="img-fluid"
-  />
-  <div class="card-body">
-    <a href="#"><h5 class="card-title">Name</h5></a>
-    <p class="card-text">
-      Area of Research
-    </p>
-
 </div>
 
-</div>
-</div>
-<div class=" col-lg-3 col-sm-4">
-  <div class="card">
-    <img
-    src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-    alt="Andreas Niekler"
-    class="img-fluid"
-  />
-  <div class="card-body">
-    <a href="#"><h5 class="card-title">Name</h5></a>
-    <p class="card-text">
-      Area of Research
-    </p>
-
-</div>
-
-</div>
-</div>
-
-<div class=" col-lg-3 col-sm-4">
-  <div class="card">
-    <img
-    src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-    alt="Andreas Niekler"
-    class="img-fluid"
-  />
-  <div class="card-body">
-    <a href="#"><h5 class="card-title">Name</h5></a>
-    <p class="card-text">
-      Area of Research
-    </p>
-
-</div>
-</div>
-</div>
-</div>
-</div>
 
 <!-- Collaborators -->
 <div class="collabs">
   <h1>Collaborators</h1>
   <hr>
-  <div class="row">
-    <div class=" col-lg-3 col-sm-4">
-      <div class="card">
-        <img
-        src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-        alt="Andreas Niekler"
-        class="img-fluid"
-      />
-      <div class="card-body">
-        <a href="#"><h5 class="card-title">Name</h5></a>
-        <p class="card-text">
-          Area of Research
-        </p>
-
+    <div class="row">
+    {% for entry in students %}
+        {% if entry.student_type == "collabs" %}
+            {{ student_card(entry) }}
+        {% endif %}
+    {% endfor %}
     </div>
-
-    </div>
-</div>
-<div class=" col-lg-3 col-sm-4">
-  <div class="card">
-    <img
-    src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-    alt="Andreas Niekler"
-    class="img-fluid"
-  />
-  <div class="card-body">
-    <a href="#"><h5 class="card-title">Name</h5></a>
-    <p class="card-text">
-      Area of Research
-    </p>
-
-</div>
-
-</div>
-</div>
-<div class=" col-lg-3 col-sm-4">
-  <div class="card">
-    <img
-    src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-    alt="Andreas Niekler"
-    class="img-fluid"
-  />
-  <div class="card-body">
-    <a href="#"><h5 class="card-title">Name</h5></a>
-    <p class="card-text">
-      Area of Research
-    </p>
-
-</div>
-
-</div>
-</div>
-<div class=" col-lg-3 col-sm-4">
-  <div class="card">
-    <img
-    src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-    alt="Andreas Niekler"
-    class="img-fluid"
-  />
-  <div class="card-body">
-    <a href="#"><h5 class="card-title">Name</h5></a>
-    <p class="card-text">
-      Area of Research
-    </p>
-
-</div>
-
-</div>
-</div>
-</div>
 </div>
 </div>
 </div>

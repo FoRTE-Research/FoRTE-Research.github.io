@@ -1,7 +1,0 @@
-Name	Venue	Description	Link
-HeXcite	(CCS'21)	High-Efficiency eXpanded Coverage for Improved Testing of Executables.	https://github.com/FoRTE-Research/hexcite
-ZAFL	(USENIX'21)	A compiler-quality binary fuzzing instrumenter.	https://git.zephyr-software.com/opensrc/zafl
-UnTracer-AFL	(Oakland'19)	Fast fuzzing through Coverage-guided Tracing.	https://github.com/FoRTE-Research/UnTracer-AFL
-FoRTE-FuzzBench	(Oakland'19)	An open-source fuzzing benchmark.	https://github.com/FoRTE-Research/FoRTE-FuzzBench
-AFL-FID	(Oakland'19)	A suite of tools for fixed-corpus fuzzing experiments.	https://github.com/FoRTE-Research/afl-fid
-AFL-Dyninst		An improved fork of AFL-Dyninst for binary fuzzing.	https://github.com/FoRTE-Research/afl-dyninst

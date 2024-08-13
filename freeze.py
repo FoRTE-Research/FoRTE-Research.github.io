@@ -1,7 +1,7 @@
 from flask import Flask, render_template, Response
 from flask_frozen import Freezer  # Import the Freezer extension
-import read_files
-from edit_files import edit_publications, edit_funding
+from openpyxl import Workbook, load_workbook
+import parse_files, edit_publications
 
 app = Flask(__name__)
 app.config['FREEZER_DESTINATION'] = 'build'  # Replace 'build' with your desired directory
@@ -11,16 +11,17 @@ freezer = Freezer(app)  # Initialize the Freezer extension
 
 @app.route('/')
 def index():
+    sections_workbook = load_workbook('sections_data.xlsx')
 
-    news = read_files.read_news_file('input_files/news.txt')
-    software = read_files.read_software_file('input_files/software.txt')
-    teaching = read_files.read_teaching_file('input_files/teaching.txt')
-    edit_funding.remove_quotations('input_files/funding.txt')
-    funding = read_files.read_funding_file('input_files/funding.txt')
-    publications = read_files.read_publications_file('input_files/references.bib')
+    news = parse_files.parse_news_sheet(sections_workbook)
+    software = parse_files.parse_software_sheet(sections_workbook)
+    teaching = parse_files.parse_teaching_sheet(sections_workbook)
+    funding = parse_files.parse_funding_sheet(sections_workbook)
+
+    publications = parse_files.parse_publications_bibtex('references.bib')
     sorted_publications = sorted(publications, key=edit_publications.sort_key, reverse=True)
     cleaned_publications = [edit_publications.clean_publication(pub) for pub in sorted_publications]
-
+    
     advdata = [
         "Advice for Prospective Research Students on Contacting Potential Advisors by David Evans",
         "A course on Preparation for Statistical Research offered at NCSU Stat Dept",
@@ -73,12 +74,14 @@ def index():
         "Acronyms Frequently Heard Around the School of Computer Science by Paul Heckbert"
     ]
 
-    return render_template('_index.html', news=news, cleaned_publications=cleaned_publications, software=software, teaching=teaching, funding=funding, advdata=advdata)
+    return render_template('index.html', news=news, cleaned_publications=cleaned_publications, software=software, teaching=teaching, funding=funding, advdata=advdata)
 
 @app.route('/team.html')
 def team():
-    students = read_files.read_students_file('input_files/students.txt')
-    return Response(render_template('_team.html', students=students), mimetype='text/html')
+    sections_workbook = load_workbook('sections_data.xlsx')
+    students = parse_files.parse_students_sheet(sections_workbook)
+
+    return Response(render_template('team.html', students=students), mimetype='text/html')
 
 
 

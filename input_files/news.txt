@@ -1,4 +1,0 @@
-Month	Year	Description 	Link
-August	2021	Our paper on the convergence of gradient descent for overparameterized neural networks has been accepted to NeurIPS 2021.	#
-August	2021	Our paper on the convergence of gradient descent for overparameterized neural networks has been accepted to NeurIPS 2021.	#
-August	2021	Our paper on the convergence of gradient descent for overparameterized neural networks has been accepted to NeurIPS 2021.	#
